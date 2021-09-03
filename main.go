@@ -63,7 +63,7 @@ func main(){
         panic(err)
     }
 
-    fmt.Println("Pinged DB OK...")
+    fmt.Println("Pinged DB OK... จรัญ")
 
 
 }
