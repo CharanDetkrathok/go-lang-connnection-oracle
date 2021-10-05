@@ -42,9 +42,9 @@ func main(){
     //     log.Fatal(err)
     // }
 
-    const dns = `user="scenter01" 
-                 password="scenter01new" 
-                 connectString="10.2.1.98:1571/RUBRAM?expire_time=2&connect_time=2" 
+    const dns = `user="DB-USERNAME" 
+                 password="DB-PASSWORD" 
+                 connectString="<HOST-IP>:<PORT>/<DATABASE-NAME>?expire_time=2&connect_time=2" 
                  timezone="Asia/Bangkok"
                  libDir="C:/instantclient_19_12"`
 
